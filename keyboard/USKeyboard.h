@@ -8,6 +8,15 @@
 
 #ifndef uskeyboard_h
 #define uskeyboard_h
+
+typedef struct key_dims {
+    UniChar unicodeString;
+    uint16_t ch;
+    char shift;
+    char alt;
+    char hid_value;
+} key_dims_t;
+
 int kvirttohid(int kvirt);
 uint8_t* hidReport(uint8_t keyCode, uint8_t modifier);
 #endif /* uskeyboard_h */

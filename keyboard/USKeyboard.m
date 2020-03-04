@@ -144,10 +144,13 @@ uint8_t* hidReport(uint8_t keyCode, uint8_t modifier) {
         0x00, // 6
         0x00, // 7
         0x00, // 8
-        0x00 // 9
+        0x00, // 9
+        0x00,
+        0x00,
+        0x00
     };
-    uint8_t* heapBytes = malloc(sizeof(bytes));
-    bzero(heapBytes, sizeof(bytes));
-    memcpy(heapBytes, bytes, sizeof(bytes));
+    uint8_t* heapBytes = malloc(14);
+    bzero(heapBytes, 14);
+    memcpy(heapBytes, bytes, 14);
     return heapBytes;
 }

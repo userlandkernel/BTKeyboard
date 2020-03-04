@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "myController.h"
+#import "myconfig.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-
+@interface AppDelegate : NSObject <NSApplicationDelegate>  
 @end
 

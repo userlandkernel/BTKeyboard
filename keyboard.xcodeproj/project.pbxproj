@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0F6B8F240FAA6C00E41E4A /* mypreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F6B8E240FAA6C00E41E4A /* mypreferences.m */; };
+		8B0F6B92240FAAC200E41E4A /* myController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F6B91240FAAC200E41E4A /* myController.m */; };
+		8B0F6B95240FB39500E41E4A /* myPair_it.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F6B94240FB39500E41E4A /* myPair_it.m */; };
+		8B0F6B98240FB3BC00E41E4A /* deviceclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F6B97240FB3BC00E41E4A /* deviceclass.m */; };
+		8B0F6B9B240FB45A00E41E4A /* myconfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F6B9A240FB45A00E41E4A /* myconfig.m */; };
+		8B0F6B9E240FB46D00E41E4A /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F6B9D240FB46D00E41E4A /* AnimationView.m */; };
 		8B9E627A240E7410007DA621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E6279240E7410007DA621 /* AppDelegate.m */; };
 		8B9E627D240E7410007DA621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E627C240E7410007DA621 /* main.m */; };
 		8B9E6280240E7410007DA621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E627F240E7410007DA621 /* ViewController.m */; };
@@ -15,23 +21,21 @@
 		8B9E628D240E7545007DA621 /* AppleKeyboardService.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E628C240E7545007DA621 /* AppleKeyboardService.plist */; };
 		8B9E628F240E75A1007DA621 /* USKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E628E240E75A1007DA621 /* USKeyboard.m */; };
 		8B9E6293240E8AF0007DA621 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E6291240E8AF0007DA621 /* utils.c */; };
-		8B9E6295240EA274007DA621 /* keyboard.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B9E6275240E7410007DA621 /* keyboard.app */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8B9E6294240EA264007DA621 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /Applications;
-			dstSubfolderSpec = 0;
-			files = (
-				8B9E6295240EA274007DA621 /* keyboard.app in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		8B0F6B8D240FAA6C00E41E4A /* mypreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mypreferences.h; sourceTree = "<group>"; };
+		8B0F6B8E240FAA6C00E41E4A /* mypreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mypreferences.m; sourceTree = "<group>"; };
+		8B0F6B90240FAAC200E41E4A /* myController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myController.h; sourceTree = "<group>"; };
+		8B0F6B91240FAAC200E41E4A /* myController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myController.m; sourceTree = "<group>"; };
+		8B0F6B93240FB39500E41E4A /* myPair_it.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPair_it.h; sourceTree = "<group>"; };
+		8B0F6B94240FB39500E41E4A /* myPair_it.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPair_it.m; sourceTree = "<group>"; };
+		8B0F6B96240FB3BC00E41E4A /* deviceclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deviceclass.h; sourceTree = "<group>"; };
+		8B0F6B97240FB3BC00E41E4A /* deviceclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deviceclass.m; sourceTree = "<group>"; };
+		8B0F6B99240FB45A00E41E4A /* myconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myconfig.h; path = ../myconfig.h; sourceTree = "<group>"; };
+		8B0F6B9A240FB45A00E41E4A /* myconfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myconfig.m; path = ../myconfig.m; sourceTree = "<group>"; };
+		8B0F6B9C240FB46D00E41E4A /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		8B0F6B9D240FB46D00E41E4A /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 		8B9E6275240E7410007DA621 /* keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9E6278240E7410007DA621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B9E6279240E7410007DA621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +63,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0F6B9F240FD21E00E41E4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F6B99240FB45A00E41E4A /* myconfig.h */,
+				8B0F6B9A240FB45A00E41E4A /* myconfig.m */,
+				8B0F6B90240FAAC200E41E4A /* myController.h */,
+				8B0F6B91240FAAC200E41E4A /* myController.m */,
+				8B0F6B96240FB3BC00E41E4A /* deviceclass.h */,
+				8B0F6B97240FB3BC00E41E4A /* deviceclass.m */,
+				8B0F6B93240FB39500E41E4A /* myPair_it.h */,
+				8B0F6B94240FB39500E41E4A /* myPair_it.m */,
+				8B9E6290240E75BD007DA621 /* USKeyboard.h */,
+				8B9E628E240E75A1007DA621 /* USKeyboard.m */,
+				8B9E6292240E8AF0007DA621 /* utils.h */,
+				8B9E6291240E8AF0007DA621 /* utils.c */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8B0F6BA0240FD22600E41E4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F6B9C240FB46D00E41E4A /* AnimationView.h */,
+				8B0F6B9D240FB46D00E41E4A /* AnimationView.m */,
+				8B0F6B8D240FAA6C00E41E4A /* mypreferences.h */,
+				8B0F6B8E240FAA6C00E41E4A /* mypreferences.m */,
+				8B9E627E240E7410007DA621 /* ViewController.h */,
+				8B9E627F240E7410007DA621 /* ViewController.m */,
+				8B9E6278240E7410007DA621 /* AppDelegate.h */,
+				8B9E6279240E7410007DA621 /* AppDelegate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8B0F6BA1240FD26500E41E4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B9E6281240E7410007DA621 /* Assets.xcassets */,
+				8B9E628C240E7545007DA621 /* AppleKeyboardService.plist */,
+				8B9E6286240E7411007DA621 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B0F6BA2240FD2A800E41E4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B9E6283240E7411007DA621 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8B0F6BA3240FD2CE00E41E4A /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
 		8B9E626C240E7410007DA621 = {
 			isa = PBXGroup;
 			children = (
@@ -78,18 +141,11 @@
 		8B9E6277240E7410007DA621 /* keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				8B9E628C240E7545007DA621 /* AppleKeyboardService.plist */,
-				8B9E6290240E75BD007DA621 /* USKeyboard.h */,
-				8B9E628E240E75A1007DA621 /* USKeyboard.m */,
-				8B9E6292240E8AF0007DA621 /* utils.h */,
-				8B9E6291240E8AF0007DA621 /* utils.c */,
-				8B9E6278240E7410007DA621 /* AppDelegate.h */,
-				8B9E6279240E7410007DA621 /* AppDelegate.m */,
-				8B9E627E240E7410007DA621 /* ViewController.h */,
-				8B9E627F240E7410007DA621 /* ViewController.m */,
-				8B9E6281240E7410007DA621 /* Assets.xcassets */,
-				8B9E6283240E7411007DA621 /* Main.storyboard */,
-				8B9E6286240E7411007DA621 /* Info.plist */,
+				8B0F6BA3240FD2CE00E41E4A /* Documentation */,
+				8B0F6B9F240FD21E00E41E4A /* Classes */,
+				8B0F6BA0240FD22600E41E4A /* Controllers */,
+				8B0F6BA2240FD2A800E41E4A /* Views */,
+				8B0F6BA1240FD26500E41E4A /* Resources */,
 				8B9E627B240E7410007DA621 /* Supporting Files */,
 			);
 			path = keyboard;
@@ -113,7 +169,6 @@
 				8B9E6271240E7410007DA621 /* Sources */,
 				8B9E6272240E7410007DA621 /* Frameworks */,
 				8B9E6273240E7410007DA621 /* Resources */,
-				8B9E6294240EA264007DA621 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -135,7 +190,7 @@
 				TargetAttributes = {
 					8B9E6274240E7410007DA621 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZCB79JJ2EN;
+						DevelopmentTeam = 9JT363B6HH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -178,9 +233,15 @@
 			files = (
 				8B9E6293240E8AF0007DA621 /* utils.c in Sources */,
 				8B9E628F240E75A1007DA621 /* USKeyboard.m in Sources */,
+				8B0F6B8F240FAA6C00E41E4A /* mypreferences.m in Sources */,
 				8B9E6280240E7410007DA621 /* ViewController.m in Sources */,
+				8B0F6B95240FB39500E41E4A /* myPair_it.m in Sources */,
 				8B9E627D240E7410007DA621 /* main.m in Sources */,
+				8B0F6B9E240FB46D00E41E4A /* AnimationView.m in Sources */,
+				8B0F6B98240FB3BC00E41E4A /* deviceclass.m in Sources */,
+				8B0F6B92240FAAC200E41E4A /* myController.m in Sources */,
 				8B9E627A240E7410007DA621 /* AppDelegate.m in Sources */,
+				8B0F6B9B240FB45A00E41E4A /* myconfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,8 +350,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = ZCB79JJ2EN;
+				DEVELOPMENT_TEAM = 9JT363B6HH;
 				INFOPLIST_FILE = keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kernelprogrammer.keyboard;
@@ -302,8 +364,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = ZCB79JJ2EN;
+				DEVELOPMENT_TEAM = 9JT363B6HH;
 				INFOPLIST_FILE = keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kernelprogrammer.keyboard;
@@ -330,6 +393,7 @@
 				8B9E628B240E7411007DA621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
